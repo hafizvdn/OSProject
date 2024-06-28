@@ -477,7 +477,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
    - No because the changes are lost when a container is deleted, all data stored inside it will loss unless it has been explicity saved to a volume
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
--
+- Yes, it can run multiple instances of Debian Linux simultaneously by:
+- running the docker run command multiple times. Each instance will be isolated from the others.
 ## Running your own container with persistent storage
 
 1. In the previous experiment, you might have notice that containers are not persistent. To make storage persistent, you will need to mount them. 
@@ -505,6 +506,7 @@ sudo chown -R codespace:codespace myroot
 
 ```
 *** __Fill answer here__.***
+
 
 ## You are on your own, create your own static webpage
 
