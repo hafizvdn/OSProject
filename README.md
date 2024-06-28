@@ -5,7 +5,7 @@ Group Name: Sistem Beroperasi
 Section: 4
 
 Team Mates:
-1.Wan Ahmad Hafizuddin Bin Wan Hussin 2217135
+1. Wan Ahmad Hafizuddin Bin Wan Hussin 2217135
 2. Azri Bin Shamsul Bahri 2210495
 3. __Fill name__ and __matric no__
 
