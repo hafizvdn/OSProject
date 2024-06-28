@@ -543,9 +543,13 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+drwxr-xr-x 2 root root 4096 Jun 13 18:30 /usr/local/apache2/htdocs
+total 4
+-rw-r--r-- 1 501 staff 45 Jun 11  2007 index.html
 2. What port is the apache web server running. ***(1 mark)*** __Fill answer here__.
+80
 3. What port is open for http protocol on the host machine? ***(1 mark)*** __Fill answer here__.
-
+8080
 ## Create SUB Networks
 
 1. In docker, you can create your own private networks where you can run multiple services, in this part, we will create two networks, one called bluenet and the other is rednet
