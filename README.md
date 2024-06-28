@@ -63,13 +63,12 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-- linux
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** 
+__linux__.
 
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-
-- Standard Environment: 4vCPUs, 8 GB of RAM, and a 32 GB SSD.
-- Enhanced Environment: 8vCPUs, 16 GB of RAM, and a 64 GB SSD.
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
+__1. Standard Environment: 4vCPUs, 8 GB of RAM, and a 32 GB SSD__. 
+__2. Enhanced Environment: 8vCPUs, 16 GB of RAM, and a 64 GB SSD__.
 
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
 
@@ -509,7 +508,6 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-
 *** __Fill answer here__.***
 ```bash
 @hafizvdn ➜ /workspaces/OSProject (main) $ sudo chown -R codespace:codespace /workspaces/OSProject/myroot
