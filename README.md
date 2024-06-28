@@ -498,15 +498,25 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
 
-- 
+- 'hello_persistent.txt' has been created in the Docker container and visible in 'myroot' directory on VM.
+- Persmission: 'rw-rw-rw' , meaning that the file is readable and writable by the owner
+- User: 'root'
+- Group: 'root'
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
 
+*** __Fill answer here__.***
+```bash
+@hafizvdn ➜ /workspaces/OSProject (main) $ sudo chown -R codespace:codespace /workspaces/OSProject/myroot
+@hafizvdn ➜ /workspaces/OSProject (main) $ ls -l /workspaces/OSProject/myroot
+total 4
+-rw-rw-rw- 1 codespace codespace 6 Jun 28 03:47 hello_persistent.txt
+```
+- we can change the permission of the files in the 'myroot' directory to the user 'codespace' group 'codespace' using above output command.
 
 ## You are on your own, create your own static webpage
 
