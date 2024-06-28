@@ -778,10 +778,16 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
 
-- it
+- it is because step 5 will likely be an error indicating that the Node.js application cannot connect to the MySQL database. 
+- This is because the MySQL container is on a different network (mysqlnet), and the Node.js container cannot reach it due to network isolation.
+- the error is because of the authentication issue between the Node.js app and the MySQL client library that cannot handle the default authentication method used by MySQL 8.x.
+
 2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
 
+```bash
+1 
 
+```
 
 ## What to submit
 
