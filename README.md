@@ -31,7 +31,7 @@ Team Mates:
 ****
 3. How many files and folders are in this repository. ***(1 mark)*** 
 ****
-    2 file
+- 
 ****
 
 ## Exploring github codespaces
