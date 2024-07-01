@@ -784,10 +784,16 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
 
+- Connect the MySQL container to the nodejsnet network
 ```bash
-1 
+docker network connect nodejsnet mysql-container
 
 ```
+- Inspect the networks to ensure the MySQL container is connected to both networks:
+```bash
+docker inspect mysql-container --format='{{json .NetworkSettings.Networks}}' | jq
+```
+
 
 ## What to submit
 
